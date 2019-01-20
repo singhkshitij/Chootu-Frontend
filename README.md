@@ -1,6 +1,4 @@
-# Chootu-Frontend
-
-## URL SHORTENER FRONTEND
+# URL SHORTENER FRONTEND
 
 Url shortener frontend build with ReactJs + ParticleJS + Material UI, bootstrapped with create-react-app. 
 
