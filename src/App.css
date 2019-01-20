@@ -1,0 +1,85 @@
+.App {
+	text-align: center;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container {
+	height: 100%;
+}
+
+.main-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #263238;
+}
+
+.background-div{
+	width: 100%;
+	height: 100%;
+}
+
+.background-div div{
+	width: 100%;
+	height: 100%;
+}
+
+.converted-header {
+	color :#fff;
+}
+
+.output {
+	text-align: left;
+	display:none;
+}
+
+.converted-link {
+	color: #FBC02D;
+	padding-top: '10px';
+	margin-top : '10px';
+	text-align: left;
+}
+
+.content-box {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+	min-width: 50%;
+	max-width: 80%;
+	padding: 2em 3em;
+	background: rgb(0,0,0,0.2);
+	font-family: "Open Sans", sans-serif;
+}
+
+#outlined-full-width{
+	color:#fff;
+}
+
+.MuiFormLabel-root-95{
+	color:#fff;
+}
+
+.footer{
+	background: #2c3e50;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+.footer a{
+	color: #F9A825;
+}
+
+.description{
+	background: #F5F5F5;
+	margin: 40px 40px 40px 40px;
+	padding: 10px 10px 10px 10px;
+}
