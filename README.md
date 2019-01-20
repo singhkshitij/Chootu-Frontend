@@ -4,7 +4,7 @@ Url shortener frontend build with ReactJs + ParticleJS + Material UI, bootstrapp
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](http://app.chtu.ml/)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://app.chtu.ml/)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/Naereen/badges.svg)](http://isitmaintained.com/project/Naereen/badges "Percentage of issues still open")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/Naereen/badges.svg)](http://app.chtu.ml/ "Percentage of issues still open")
 [![Open Source Love png3](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](http://app.chtu.ml/)
 
 
