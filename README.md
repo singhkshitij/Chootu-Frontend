@@ -1,12 +1,15 @@
 # URL SHORTENER FRONTEND
 
-Url shortener frontend build with ReactJs + ParticleJS + Material UI, bootstrapped with create-react-app. 
+Url shortener PWA Enabled frontend build with ReactJs + ParticleJS + Material UI, bootstrapped with create-react-app. 
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](http://app.chtu.ml/)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://app.chtu.ml/)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/Naereen/badges.svg)](http://app.chtu.ml/ "Percentage of issues still open")
 [![Open Source Love png3](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](http://app.chtu.ml/)
 
+### What does PWA (Progressive Web App) Enabled means ?
+
+> The Project can be download as an app on mobile devices. It behaves completely similar to native android app.
 
 ### Setting the Project Locally
 
