@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Particles from "react-particles-js";
 
 class Background extends Component {
-	render() {
-		return (
-			<div className='background-div'>
+    render() {
+        return (
+            <div className='background-div'>
 				<Particles
 					params={{
 						particles: {
@@ -113,8 +113,8 @@ class Background extends Component {
 					}}
 				/>
 			</div>
-		);
-	}
+        );
+    }
 }
 
 export default Background;

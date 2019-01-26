@@ -10,8 +10,16 @@ class Description extends Component {
 
         return (
             <div className="description">
-			<ReactMarkdown source={input.content} />
-		</div>
+            	<h2>Found Interesting ? Feel free to Contribute !</h2>
+            	<div className="fr-desc">
+					<ReactMarkdown source={input.frContent} />
+					<a href="https://github.com/singhkshitij/Chootu-Frontend" target="_blank" rel="noopener noreferrer"><button className="btn orange" type="button"><span>Visit Repo</span></button></a>
+				</div>
+				<div className="bk-desc">
+					<ReactMarkdown source={input.bkContent} />
+					<a href="https://github.com/singhkshitij/UrlShortener-REST-API" target="_blank" rel="noopener noreferrer"><button className="btn orange" type="button"><span>Visit Repo</span></button></a>
+				</div>
+			</div>
         );
     }
 

@@ -4,10 +4,10 @@ import Row from "react-bootstrap/lib/Row";
 
 class Footer extends Component {
 
-	render() {
+    render() {
 
-	    return (
-	    	<div className="footer">
+        return (
+            <div className="footer">
 		    	<Container>
 	          		<Row>
 		    		<p>Open Source Project - Made with ❤ in India</p>
@@ -17,9 +17,9 @@ class Footer extends Component {
 		    		</Row>
 	        	</Container>
 	    	</div>
-	    );
-	   }
-	}
+        );
+    }
+}
 
 
 export default Footer;
