@@ -1,44 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# URL SHORTENER FRONTEND
 
-## Available Scripts
+Url shortener PWA Enabled frontend build with ReactJs + ParticleJS + Material UI, bootstrapped with create-react-app. 
 
-In the project directory, you can run:
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](http://app.chtu.ml/)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://app.chtu.ml/)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/Naereen/badges.svg)](http://app.chtu.ml/ "Percentage of issues still open")
+[![Open Source Love png3](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](http://app.chtu.ml/)
 
-### `npm start`
+### What does PWA (Progressive Web App) Enabled means ?
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> The Project can be download as an app on mobile devices. It behaves completely similar to native android app.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Setting the Project Locally
 
-### `npm test`
+  - Download the zip or clone repo
+  - Open terminal or cmd prompt
+  - run 
+```js
+npm install
+```
+- After dependencies are installed successfully. Run command
+```js
+npm start
+```
+- A browser window will automatically come up in the browser.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### How to publish webpage to Github Pages
 
-### `npm run build`
+- Create a new repository on GitHub.
+- Convert the local react project to a git repository
+```js
+#create a new git repository
+$ git init
+#add all changed file paths to staged changes
+$ git add .
+#commit all staged changes
+$ git commit -m 'initial commit'
+```
+- Push the code to it using the following commands. 
+```js
+#add remote repository
+$ git remote add origin https://github.com/username/website.git
+#pushed local repository to remote repository on GitHub
+$ git push origin master
+```
+-  The next step is to install ‘gh-pages’ package (if not available) using the following npm command:
+```js
+#install gh-pages package
+$ npm install --save gh-pages
+```
+` Just Open Package.json file and change Homepage to whatever your repo url is.
+```js
+"homepage" : "https://singhkshitij.github.io/Chootu/"
+```
+- The last step now was to deploy the application using the following command:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```js
+#deploy application
+$ npm run deploy
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+> So after the deployment, a second “gh-pages” branch is created which contains the static code for the React app for the website. Finally, the React-GitHub-Pages environment setup is completed..
