@@ -21,7 +21,7 @@ class CustomInput extends Component {
             <div className="custom-input">
 				<Collapsible trigger="Link Options" easing="ease-out">
 					<div className="label-wrapper">
-						<p className="custom-url-label">www.chtu.ml/</p>
+						<p className="custom-url-label">chootu.netlify.app</p>
 					</div>
 					<div className="textfield-wrapper">
 						<TextField

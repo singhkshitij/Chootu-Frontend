@@ -73,7 +73,7 @@ class Content extends Component {
 								label="Link to shorten:"
 								style={{ margin: 8 , color:'#fff' }}
 								InputLabelProps={{style: { color: '#ECEFF1' }}}
-								placeholder="https://abkibarmodi.sarkar/jai-ho-modi-ji-ki"
+								placeholder="https://github.com/singhkshitij/Chootu-Frontend"
 								fullWidth
 								onChange = {this.handleTextFieldChange}
 							/>

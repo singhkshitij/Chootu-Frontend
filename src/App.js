@@ -12,7 +12,7 @@ class App extends Component {
 
     initHerokuRestApi() {
 
-        axios.get('https://www.chtu.ml/')
+        axios.get('https://chootu-rest-api.herokuapp.com/')
             .then(res => {
                 console.log("REST API init request message : ", res.data);
             });

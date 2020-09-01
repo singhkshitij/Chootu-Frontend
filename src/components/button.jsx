@@ -41,7 +41,7 @@ class ButtonStyled extends Component {
                 position: toast.POSITION.BOTTOM_RIGHT
             });
         } else {
-            axios.post('https://www.chtu.ml/shortener', {
+            axios.post('https://chootu-rest-api.herokuapp.com/shortener', {
                     "url": this.state.textBoxValue(),
                     "customUrl": this.state.getCustomUrl()
                 })
